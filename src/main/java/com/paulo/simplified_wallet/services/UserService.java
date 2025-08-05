@@ -14,7 +14,7 @@ public class UserService {
 
     private final UserRepository userRepository;
 
-    public User findUser(String id) {
+    public User findUser(Long id) {
         return userRepository.findById(id).orElseThrow(() ->
             new UserNotFoundException("User not found!"));
     }

@@ -16,8 +16,8 @@ import java.time.LocalDateTime;
 public class  Transaction {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    private String transactionId;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long transactionId;
 
     private BigDecimal value;
 

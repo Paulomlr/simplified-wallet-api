@@ -17,8 +17,8 @@ import java.math.BigDecimal;
 public class Wallet {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    private String walletId;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long walletId;
 
     private BigDecimal balance;
 
