@@ -1,6 +1,6 @@
 package com.paulo.simplified_wallet.services;
 
-import com.paulo.simplified_wallet.controllers.ClientAuthorization;
+import com.paulo.simplified_wallet.controllers.infra.ClientAuthorization;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

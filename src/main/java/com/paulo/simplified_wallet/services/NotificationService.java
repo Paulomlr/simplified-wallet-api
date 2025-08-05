@@ -1,6 +1,6 @@
 package com.paulo.simplified_wallet.services;
 
-import com.paulo.simplified_wallet.controllers.ClientNotification;
+import com.paulo.simplified_wallet.controllers.infra.ClientNotification;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
